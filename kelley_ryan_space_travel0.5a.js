@@ -75,7 +75,7 @@ Another method is using a switch statement.
         case "2":
             console.log("You have chosen option 2.");
             var distance = distanceToOption2;
-            break
+            break;
         default:
             console.log("You did not choose a viable option.  The program will now close.");
     }
@@ -96,5 +96,7 @@ Use an if statement to make sure that the speed entered is GREATER THAN 300,000.
 
     if (SPEED > 300000) {
         // RE-USE THE CODE TO ENTER SPEED HERE.  
+    } else {
+        // Print the speed to the console so the user can confirm it is correct. 
     }
 */ 
