@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, September 23, 2020 2:26PM, Version 0.2
+# Space Travel Simulator, Ryan Kelley, September 23, 2020 2:37PM, Version 0.25
 
 # print instructions for the user
 # get user input for selection
@@ -22,3 +22,9 @@ light_speed = 299792
 # DECLARED light_speed as a variable.  The = sign INITIALIZES the variable, which means giving it a starting value.
 print("The speed of light is", light_speed, "Km / s.") 
 # When you use a variable_name inside of a string it is called SUBSTITUTION. 
+
+user_selection = input("Please enter a number and then press enter. ")
+# The = translates to the English phrase "MAKE EQUAL TO" or "SET EQUAL TO. 
+print(user_selection)
+
+ 
