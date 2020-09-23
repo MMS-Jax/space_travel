@@ -1,4 +1,4 @@
-# Space Travel Simulator 2020, Ryan Kelley, 09/23/2020 9:16AM, Version 0.1
+# Space Travel Simulator 2020, Ryan Kelley, 09/23/2020 9:30AM, Version 0.2
 
 # print instructions on the screen
 # get user input to select an object
@@ -15,3 +15,12 @@
 print ("Hello!  Thank you for using the NASA Space Travel Simulator 2020!  This program will help you travel through space.")
 # Line 15 is a STATEMENT.  A statement is one complete line of code.  
 # print is a METHOD.  Methods are basically "special abilities" built in to the Python code. 
+
+# DECLARING VARIABLES
+# Variables are designed to store different types of data, such as high score, number of eggs, amount of gas, etc.
+# Two main ways of writing variable names:  camelCase or snake_case.
+# Variable names SHOULD TELL YOU WHAT TYPE OF DATA THEY ARE STORING.
+# For example: amnt_gas, num_eggs, high_score are all good variable names.
+# a_g, n_e, or h_s are NOT good variable names.
+# Variables in Python must start with an _ or a letter.  And they can contain numbers.
+# For example: score1, eggs0, etc.  
