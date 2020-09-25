@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, September 25, 2020 1:55PM, Version 0.3
+# Space Travel Simulator, Ryan Kelley, September 25, 2020 2:05PM, Version 0.35
 
 # print instructions for the user
 # get user input for selection
@@ -35,6 +35,13 @@ trillion = 1000000000000
 # Objects in Outer Space
 dist_sun = 150.01 * million
 dist_uranus = 2.9 * billion
-dist_asteroid_belt = 553.5 * million 
+dist_asteroid_belt = 553.5 * million
+
+# Objects Outside the Solar System
+dist_alpha_centauri = 
+dist_ursa_major =
+light_year = 9.4607 * trillion 
+dist_gw_orionis = 1000 * light_year
+
 
 
