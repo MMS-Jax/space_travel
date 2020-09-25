@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, September 25, 2020 2:05PM, Version 0.35
+# Space Travel Simulator, Ryan Kelley, September 25, 2020 2:16PM, Version 0.4
 
 # print instructions for the user
 # get user input for selection
@@ -38,10 +38,14 @@ dist_uranus = 2.9 * billion
 dist_asteroid_belt = 553.5 * million
 
 # Objects Outside the Solar System
-dist_alpha_centauri = 
-dist_ursa_major =
+# dist_alpha_centauri = 
+# dist_ursa_major =
 light_year = 9.4607 * trillion 
 dist_gw_orionis = 1000 * light_year
+
+# Ask the user what their name is.
+user_name = input("What is your name?  Please type your name and press [ENTER].\n")
+print(user_name)
 
 
 
