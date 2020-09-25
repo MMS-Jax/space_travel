@@ -1,4 +1,4 @@
-# Space Travel Simulator 2020, Ryan Kelley, 09/23/2020 9:30AM, Version 0.2
+# Space Travel Simulator 2020, Ryan Kelley, 09/25/2020 8:41AM, Version 0.25
 
 # print instructions on the screen
 # get user input to select an object
@@ -23,4 +23,10 @@ print ("Hello!  Thank you for using the NASA Space Travel Simulator 2020!  This 
 # For example: amnt_gas, num_eggs, high_score are all good variable names.
 # a_g, n_e, or h_s are NOT good variable names.
 # Variables in Python must start with an _ or a letter.  And they can contain numbers.
-# For example: score1, eggs0, etc.  
+# For example: score1, eggs0, etc.
+
+user_name = input("What is your name?  Please type it and then press [ENTER].\n")
+# input() is a METHOD to accept data from the user via the keyboard.
+# input() allows us to print a STRING on the screen, usually with instructions.
+# \n is a NEWLINE character, it is the same as pushing the ENTER key.
+print("You entered",user_name,".\n")
