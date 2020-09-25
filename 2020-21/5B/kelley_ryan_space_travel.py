@@ -1,4 +1,4 @@
-# Space Travel Simulator 2020, Ryan Kelley, 09/25/2020 8:41AM, Version 0.25
+# Space Travel Simulator 2020, Ryan Kelley, 09/25/2020 9:06AM, Version 0.3
 
 # print instructions on the screen
 # get user input to select an object
@@ -9,9 +9,8 @@
 # determine if travel time is greater than 3 years.
 # if more than three years, PRINT WARNING OF GRAVE DANGER OR DEATH
 # if less than or equal to three years, PRINT HAPPY MESSAGE OF GOOD LUCK
-
 # ALGORITHM - a step-by-step process to solve a problem / complete a task.  
- 
+
 print ("Hello!  Thank you for using the NASA Space Travel Simulator 2020!  This program will help you travel through space.")
 # Line 15 is a STATEMENT.  A statement is one complete line of code.  
 # print is a METHOD.  Methods are basically "special abilities" built in to the Python code. 
@@ -25,8 +24,29 @@ print ("Hello!  Thank you for using the NASA Space Travel Simulator 2020!  This 
 # Variables in Python must start with an _ or a letter.  And they can contain numbers.
 # For example: score1, eggs0, etc.
 
+# DATA TYPES
+# INTEGER, written as int, any postive/negative whole number, including zero.
+# FLOAT, written as float, any postive/negative number that has a decimal.
+# BOOLEAN, written as bool, either TRUE or FALSE.
+# STRINGS, written as str, a "string" of characters/numbers.  
+
+
 user_name = input("What is your name?  Please type it and then press [ENTER].\n")
 # input() is a METHOD to accept data from the user via the keyboard.
 # input() allows us to print a STRING on the screen, usually with instructions.
 # \n is a NEWLINE character, it is the same as pushing the ENTER key.
 print("You entered",user_name,".\n")
+
+# Millions, Billions, Trillions
+
+millions = 1000000
+billions = 1000000000
+trillions = 1000000000000
+
+print(25 * millions)
+print(3.56542 * billions)
+print(-5 * trillions)
+
+
+
+
