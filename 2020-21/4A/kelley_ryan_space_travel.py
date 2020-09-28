@@ -35,7 +35,6 @@ million = 1000000
 billion = 1000000000
 trillion = 1000000000000
 
-
 dist_sun = 149.59787 * million 
 dist_pluto = 7.5 * billion 
 dist_neptune = 4.3514 * billion
