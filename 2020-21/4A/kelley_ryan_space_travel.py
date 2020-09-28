@@ -1,5 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, Sept. 28, 2020, 2:10PM, Version 0.2
-
+# Space Travel Simulator, Ryan Kelley, Sept. 28, 2020, 2:36PM, Version 0.3
 # print instructions
 # get user selection
 # calculate the distance to the object
@@ -8,7 +7,6 @@
 # Check to see if the trip takes more or less than three years.
 # If the trip is MORE THAN 3 years, print a warning
 # If the trip is LESS THAN OR EQUAL TO 3 years, print a message of success.
-
 print ("Thank you for using the NASA Space Travel Simulator!")
 # print is a METHOD used in Python.  methods are "special abilities" you can use. 
 
@@ -24,19 +22,29 @@ print ("Thank you for using the NASA Space Travel Simulator!")
 # Variables in Python can start with _ or a letter, and can contain numbers.
 # Variables should BE DESCRIPTIVE.
 
-
-
-
-
-
-
 # my_int = -459285724
 # my_float = 3.50
 # my_string = "Type a sentence here please.  "
-
 # print (my_int * 50)
 # print (my_float / 3.14)
 # print (my_string)
 # print (my_string * 2)
+
+# Distances to Objects in Our Solar System (Three)
+million = 1000000
+billion = 1000000000
+trillion = 1000000000000
+
+
+dist_sun = 149.59787 * million 
+dist_pluto = 7.5 * billion 
+dist_neptune = 4.3514 * billion
+print ("The distance to the Sun is", dist_sun, "kilometers.")
+print ("The distance to Pluto is", dist_pluto, "kilometers.")
+print ("The distance to Neptune is", dist_neptune, "kilometers.") 
+
+
+
+# Distances to Objects Outside Our Solar System (Three) 
 
 
