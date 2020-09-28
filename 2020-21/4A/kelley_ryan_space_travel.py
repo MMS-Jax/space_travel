@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, Sept. 24, 2020, 2:41PM, Version 0.1
+# Space Travel Simulator, Ryan Kelley, Sept. 28, 2020, 2:10PM, Version 0.2
 
 # print instructions
 # get user selection
@@ -18,3 +18,25 @@ print ("Thank you for using the NASA Space Travel Simulator!")
 # Integers are WHOLE NUMBERS, POSITIVE OR NEGATIVE, including ZERO
 # Floats are any POSITIVE or NEGATIVE NUMBER WITH A DECIMAL
 # STRINGS are written text. 
+# Naming Variables
+# camelCase
+# snake_case
+# Variables in Python can start with _ or a letter, and can contain numbers.
+# Variables should BE DESCRIPTIVE.
+
+
+
+
+
+
+
+# my_int = -459285724
+# my_float = 3.50
+# my_string = "Type a sentence here please.  "
+
+# print (my_int * 50)
+# print (my_float / 3.14)
+# print (my_string)
+# print (my_string * 2)
+
+
