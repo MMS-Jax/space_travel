@@ -1,6 +1,6 @@
-# Space Travel Simulator, Ryan Kelley, Sept. 28, 2020, 2:36PM, Version 0.3
+# Space Travel Simulator, Ryan Kelley, Sept. 30, 2020, 1:45PM, Version 0.35
 # ALGORITHM -- Step by step list of instructions to complete a task.
-
+import time 
 # print instructions
 # get user selection
 # calculate the distance to the object
@@ -38,8 +38,6 @@ dist_neptune = 4.3514 * billion
 print ("The distance to the Sun is", dist_sun, "kilometers.")
 print ("The distance to Pluto is", dist_pluto, "kilometers.")
 print ("The distance to Neptune is", dist_neptune, "kilometers.") 
-
-
 
 # Distances to Objects Outside Our Solar System (Three) 
 
