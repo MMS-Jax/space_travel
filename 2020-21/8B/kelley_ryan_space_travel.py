@@ -1,5 +1,7 @@
 # Space Travel Simulator, Ryan Kelley, September 25, 2020 2:16PM, Version 0.4
+import time
 
+# ALGORITHM: step by step list of instructions to solve a problem / complete a task.
 # print instructions for the user
 # get user input for selection
 # calculate distance to selection
@@ -18,14 +20,10 @@ print ("Thank you for using the NASA Space Travel Simulator!  This program will 
 # In Python, variable names can start with a letter or an underscore but NOT a number.
 # game_1, num_eggs, amnt_gas, or _favorite_flavor are all LEGAL variable names in Python.
 
-# light_speed = 299792
-# DECLARED light_speed as a variable.  The = sign INITIALIZES the variable, which means giving it a starting value.
-# print("The speed of light is", light_speed, "Km / s.") 
-# When you use a variable_name inside of a string it is called SUBSTITUTION. 
 
-# user_selection = input("Please enter a number and then press enter. ")
-# The = translates to the English phrase "MAKE EQUAL TO" or "SET EQUAL TO. 
-# print(user_selection)
+# INITIALIZING VARIABLES
+
+
 
 # Create variables for million, billion, trillion. 
 million = 1000000
