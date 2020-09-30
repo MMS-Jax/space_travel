@@ -35,18 +35,18 @@ trillion = 1000000000000
 dist_sun = 149.59787 * million 
 dist_pluto = 7.5 * billion 
 dist_neptune = 4.3514 * billion
-print ("The distance to the Sun is", dist_sun, "kilometers.")
-print ("The distance to Pluto is", dist_pluto, "kilometers.")
-print ("The distance to Neptune is", dist_neptune, "kilometers.") 
+# print ("The distance to the Sun is", dist_sun, "kilometers.")
+# print ("The distance to Pluto is", dist_pluto, "kilometers.")
+# print ("The distance to Neptune is", dist_neptune, "kilometers.") 
 
 # Distances to Objects Outside Our Solar System (Three) 
 light_year = 9.469703 * trillion
 dist_alpha_centauri = 4.3 * light_year
 dist_eagle_nebula = 5700 * light_year
 dist_pillars_creation = 7000 * light_year
-print ("The distance to Alpha Centauri is", dist_alpha_centauri, "kilometers.")
-print ("The distance to the Eagle Nebula is", dist_eagle_nebula, "kilometers.")
-print ("The distance to the Pillars of Creation is", dist_pillars_creation, "kilometers.") 
+# print ("The distance to Alpha Centauri is", dist_alpha_centauri, "kilometers.")
+# print ("The distance to the Eagle Nebula is", dist_eagle_nebula, "kilometers.")
+# print ("The distance to the Pillars of Creation is", dist_pillars_creation, "kilometers.") 
 
 # Ask the User for their name.
 user_name = input("Hello!  What is your name?  Please type it and press ENTER.\n")
