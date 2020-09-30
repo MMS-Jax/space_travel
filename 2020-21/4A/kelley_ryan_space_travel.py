@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, Sept. 30, 2020, 2:00PM, Version 0.45
+# Space Travel Simulator, Ryan Kelley, Sept. 30, 2020, 2:32PM, Version 0.5
 # ALGORITHM -- Step by step list of instructions to complete a task.
 import time 
 # print instructions
@@ -48,3 +48,7 @@ print ("The distance to Alpha Centauri is", dist_alpha_centauri, "kilometers.")
 print ("The distance to the Eagle Nebula is", dist_eagle_nebula, "kilometers.")
 print ("The distance to the Pillars of Creation is", dist_pillars_creation, "kilometers.") 
 
+# Ask the User for their name.
+user_name = input("Hello!  What is your name?  Please type it and press ENTER.\n")
+print("Hello " ,user_name," I hope you are having a good day! Let's get started.\n")
+time.sleep(3)
