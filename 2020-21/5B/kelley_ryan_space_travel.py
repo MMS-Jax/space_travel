@@ -1,4 +1,4 @@
-# Space Travel Simulator 2020, Ryan Kelley, 10/01/2020 8:53AM, Version 0.4
+# Space Travel Simulator 2020, Ryan Kelley, 10/01/2020 9:09AM, Version 0.45
 import time 
 # print instructions on the screen
 # get user input to select an object
@@ -50,6 +50,14 @@ trillion = 1000000000000
 dist_sun = 149.75 * million
 # dist_venus =
 # dist_europa
+
+
+# Objects outside the Solar System
+light_year = 9.46073 * trillion
+dist_alpha_centauri = 4.3 * light_year
+# Distance for object two goes here.
+# Distance for object three goes here.
+
 
 
 
