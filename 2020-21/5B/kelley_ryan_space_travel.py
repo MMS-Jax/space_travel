@@ -60,7 +60,20 @@ dist_alpha_centauri = 4.3 * light_year
 # Distance for object two goes here.
 # Distance for object three goes here.
 
-
-
+print("/*********************************************************************************\\")
+print("|  Please choose an object from the following menu.                               |")
+print("|                                                                                 |")
+print("|  [0] The Sun                                                                    |")
+print("|  [1] Venus                                                                      |")
+print("|  [2] Europa                                                                     |")
+print("|  [3] Alpha Centauri                                                             |")
+print("|  [4] Something Else                                                             |")
+print("|  [5] Another Something Else                                                     |")
+print("|                                                                                 |")
+print("|                                                                                 |")
+print("|                                                                                 |")
+print("|                                                                                 |")
+print("|                                                                                 |")
+print("\\*********************************************************************************/")
 
 
