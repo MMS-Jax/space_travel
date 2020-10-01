@@ -1,4 +1,4 @@
-# Space Travel Simulator 2020, Ryan Kelley, 10/01/2020 9:09AM, Version 0.45
+# Space Travel Simulator 2020, Ryan Kelley, 10/01/2020 9:15AM, Version 0.5
 import time 
 # print instructions on the screen
 # get user input to select an object
@@ -38,6 +38,8 @@ user_name = input("What is your name?  Please type it and then press [ENTER].\n"
 # input() allows us to print a STRING on the screen, usually with instructions.
 # \n is a NEWLINE character, it is the same as pushing the ENTER key.
 print("You entered",user_name,".\n")
+time.sleep(3)
+
 
 # Millions, Billions, Trillions
 
