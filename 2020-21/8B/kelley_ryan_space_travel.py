@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, October 01, 2020 1:42PM, Version 0.5
+# Space Travel Simulator, Ryan Kelley, October 01, 2020 2:16PM, Version 0.65
 import time
 
 # ALGORITHM: step by step list of instructions to solve a problem / complete a task.
@@ -46,6 +46,18 @@ user_name = input("What is your name?  Please type your name and press [ENTER].\
 print("Oh, you're finally awake!  It's nice to meet you" ,user_name, "!\n")
 time.sleep(3)
 
-
-
-
+print("+========================================================================+")
+print("* Please choose one of the objects from the menu.                        *")
+print("*                                                                        *")
+print("*   [0] The Sun                                                          *")
+print("*   [1] Uranus                                                           *")
+print("*   [2] Asteroid Belt                                                    *")
+print("*   [3] Alpha Centauri                                                   *")
+print("*   [4] Ursa Major                                                       *")
+print("*   [5] GW Orionis                                                       *")
+print("*                                                                        *")
+print("*   You will be prompted to enter one of the numbers from the list.      *")
+print("+========================================================================+")
+time.sleep(3)
+user_choice = input("Please type a number from the menu and press ENTER.\n")
+print(user_choice)
