@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, Oct. 01, 2020 1:07PM, Version 0.15
+# Space Travel Simulator, Ryan Kelley, Oct. 01, 2020 1:16PM, Version 0.2
 # ALGORITHM -- step-by-step list of instructions to complete a task.
 import time 
 
@@ -16,3 +16,12 @@ import time
 print ("Greetings human!  This is the Space Travel Simulator-bot.  I will help you travel in space.")
 # print() is a METHOD, which is a built-in function of Python.  It prints STRING LITERALS.
 # STRING LITERAL is sequence of letters, numbers, and other characters. 
+
+
+# “DECLARING VARIABLES”.
+# “Variables store different types of data.”
+# “Most Common Data Types are: INTEGERS, FLOATS, STRINGS, and BOOLS.”
+# “Integers are positiveor negative whole numbers, including zero. Abbreviated as int.”
+# “Floats (floating point)are positiveor negative numbersthat have a decimal. Abbreviated as float.”
+# “Strings are lines of text including letters and characters. Abbreviated as str.”
+# “Bools (Boolean) are True ofFalsevalues.  Abbreviatedas bool.”
