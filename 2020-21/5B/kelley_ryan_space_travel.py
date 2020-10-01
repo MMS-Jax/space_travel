@@ -1,5 +1,5 @@
-# Space Travel Simulator 2020, Ryan Kelley, 09/25/2020 9:06AM, Version 0.3
-
+# Space Travel Simulator 2020, Ryan Kelley, 10/01/2020 8:53AM, Version 0.4
+import time 
 # print instructions on the screen
 # get user input to select an object
 # determine distance to the object
@@ -11,9 +11,11 @@
 # if less than or equal to three years, PRINT HAPPY MESSAGE OF GOOD LUCK
 # ALGORITHM - a step-by-step process to solve a problem / complete a task.  
 
+
 print ("Hello!  Thank you for using the NASA Space Travel Simulator 2020!  This program will help you travel through space.")
 # Line 15 is a STATEMENT.  A statement is one complete line of code.  
 # print is a METHOD.  Methods are basically "special abilities" built in to the Python code. 
+
 
 # DECLARING VARIABLES
 # Variables are designed to store different types of data, such as high score, number of eggs, amount of gas, etc.
@@ -39,13 +41,15 @@ print("You entered",user_name,".\n")
 
 # Millions, Billions, Trillions
 
-millions = 1000000
-billions = 1000000000
-trillions = 1000000000000
+million = 1000000
+billion = 1000000000
+trillion = 1000000000000
 
-print(25 * millions)
-print(3.56542 * billions)
-print(-5 * trillions)
+
+# Objects in Our Solar System
+dist_sun = 149.75 * million
+# dist_venus =
+# dist_europa
 
 
 
