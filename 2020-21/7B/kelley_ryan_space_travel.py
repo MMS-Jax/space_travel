@@ -1,5 +1,6 @@
-# Space Travel Simulator, Ryan Kelley, Sept. 25 2020 1:13PM, Version 0.05
+# Space Travel Simulator, Ryan Kelley, Oct. 01, 2020 1:07PM, Version 0.15
 # ALGORITHM -- step-by-step list of instructions to complete a task.
+import time 
 
 # Give the user instructions about what the program does / how to use it.
 # Ask the user for their name.
@@ -12,3 +13,6 @@
 # Determine if trip is MORE OR LESS than 3 years. 
 
 
+print ("Greetings human!  This is the Space Travel Simulator-bot.  I will help you travel in space.")
+# print() is a METHOD, which is a built-in function of Python.  It prints STRING LITERALS.
+# STRING LITERAL is sequence of letters, numbers, and other characters. 
