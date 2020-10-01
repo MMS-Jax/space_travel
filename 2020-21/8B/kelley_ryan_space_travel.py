@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, September 25, 2020 2:16PM, Version 0.4
+# Space Travel Simulator, Ryan Kelley, October 01, 2020 1:42PM, Version 0.5
 import time
 
 # ALGORITHM: step by step list of instructions to solve a problem / complete a task.
@@ -43,7 +43,9 @@ dist_gw_orionis = 1000 * light_year
 
 # Ask the user what their name is.
 user_name = input("What is your name?  Please type your name and press [ENTER].\n")
-print(user_name)
+print("Oh, you're finally awake!  It's nice to meet you" ,user_name, "!\n")
+time.sleep(3)
+
 
 
 
