@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/02/20 12:57PM, Version 0.35
+# Space Travel Simulator, Ryan Kelley, 10/02/20 1:05PM, Version 0.4
 # ALGORITHM -- List of step-by-step instructions to solve a problem / complete a task. 
 
 import time 
@@ -44,4 +44,7 @@ billion = 1000000000
 trillion = 1000000000000
 
 
-
+# Objects in Our Solar System
+dist_sun = 150 * million
+# Object Two
+# Object Three 
