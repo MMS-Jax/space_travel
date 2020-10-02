@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, Sept. 30, 2020, 2:32PM, Version 0.5
+# Space Travel Simulator, Ryan Kelley, 10/02/20, 1:56PM, Version 0.6
 # ALGORITHM -- Step by step list of instructions to complete a task.
 import time 
 # print instructions
@@ -52,3 +52,19 @@ dist_pillars_creation = 7000 * light_year
 user_name = input("Hello!  What is your name?  Please type it and press ENTER.\n")
 print("Hello " ,user_name," I hope you are having a good day! Let's get started.\n")
 time.sleep(3)
+
+
+print ("[+---------------------------------------------------------------------+]")
+print ("[ Please choose one of the options from the menu.                       ]")
+print ("[                                                                       ]")
+print ("[ [0] The Sun                                                           ]")
+print ("[ [1] Pluto                                                             ]")
+print ("[ [2] Neptune                                                           ]")
+print ("[ [3] Alpha Centauri                                                    ]")
+print ("[ [4] Eagle Nebula                                                      ]")
+print ("[ [5] Pillars of Creation                                               ]")
+print ("[                                                                       ]")
+print ("[ You will be prompted to type the number for the object you want.      ]")
+print ("[+---------------------------------------------------------------------+]")
+time.sleep(2)
+
