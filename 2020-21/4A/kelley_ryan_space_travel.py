@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/02/20, 1:56PM, Version 0.6
+# Space Travel Simulator, Ryan Kelley, 10/02/20, 2:09PM, Version 0.65
 # ALGORITHM -- Step by step list of instructions to complete a task.
 import time 
 # print instructions
@@ -67,4 +67,14 @@ print ("[                                                                       
 print ("[ You will be prompted to type the number for the object you want.      ]")
 print ("[+---------------------------------------------------------------------+]")
 time.sleep(2)
+
+
+user_choice = input("Please type the number you want and press ENTER.\n")
+distance = 0
+# print (user_choice)
+
+
+
+
+
 
