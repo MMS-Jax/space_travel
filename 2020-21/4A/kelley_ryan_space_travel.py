@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/02/20, 2:09PM, Version 0.65
+# Space Travel Simulator, Ryan Kelley, 10/02/20, 2:39PM, Version 0.7
 # ALGORITHM -- Step by step list of instructions to complete a task.
 import time 
 # print instructions
@@ -69,9 +69,34 @@ print ("[+---------------------------------------------------------------------+
 time.sleep(2)
 
 
-user_choice = input("Please type the number you want and press ENTER.\n")
+user_choice = int(input("Please type the number you want and press ENTER.\n"))
 distance = 0
 # print (user_choice)
+
+if user_choice == 0:   # == means "Are these two equal?"
+    distance = dist_sun
+    print("You selected the Sun.  It is", distance," Km from the Earth.\n")
+elif user_choice == 1:  
+    distance = dist_pluto
+    print("You selected Pluto.  It is", distance," Km from the Earth.\n")
+elif user_choice == 2:  
+    distance = dist_neptune
+    print("You selected Neptune.  It is", distance," Km from the Earth.\n")
+elif user_choice == 3:  
+    distance = dist_alpha_centauri
+    print("You selected Alpha Centauri.  It is", distance," Km from the Earth.\n")
+elif user_choice == 4:  
+    distance = dist_eagle_nebula
+    print("You selected the Eagle Nebula.  It is", distance," Km from the Earth.\n")
+elif user_choice == 5:  
+    distance = dist_pillars_creation
+    print("You selected the Pillars of Creation.  It is", distance," Km from the Earth.\n")
+else: # This is the PANIK option.  It means none of my choices above were true.  
+    print("You did not pick an option from the menu.  The program will now exit.  Try again.\n")
+    exit() 
+
+
+    
 
 
 
