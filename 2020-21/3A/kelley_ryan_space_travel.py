@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/02/20 12:44PM, Version 0.3
+# Space Travel Simulator, Ryan Kelley, 10/02/20 12:57PM, Version 0.35
 # ALGORITHM -- List of step-by-step instructions to solve a problem / complete a task. 
 
 import time 
@@ -37,5 +37,11 @@ print ("Welcome to the NASA Space Travel Simulator!  This program will help you 
 # “In Python, the = symbols means to assign the variable on the left side the value of the statement or expression on the right side.”
 # “my_score = 5x + 12"
 # “The line above DECLARES a variable called my_score and INITIALIZES it to the value 5x + 12”
+
+
+million = 1000000
+billion = 1000000000
+trillion = 1000000000000
+
 
 
