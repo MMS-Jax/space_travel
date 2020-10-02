@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 09/30/20 1:08PM, Version 0.25
+# Space Travel Simulator, Ryan Kelley, 10/02/20 12:44PM, Version 0.3
 # ALGORITHM -- List of step-by-step instructions to solve a problem / complete a task. 
 
 import time 
@@ -28,5 +28,14 @@ print ("Welcome to the NASA Space Travel Simulator!  This program will help you 
 # “Examples include: num_eggs, amnt_gas, high_score, or player_name.”
 # “Variables in Python can start with _ or a letter but NOT a number.”
 # “Variables can use camelCase style or snake_case style but use the SAME style in your code.”
+
+
+# “DECLARING and INITIALIZING VARIABLES”.
+# “Declaring a variable means to tell Python the name of the variable.”
+# “Generally variables will be declared on the first column of a line.”
+# “INITIALIZING a variable means to assign it a starting value using the = symbol.”
+# “In Python, the = symbols means to assign the variable on the left side the value of the statement or expression on the right side.”
+# “my_score = 5x + 12"
+# “The line above DECLARES a variable called my_score and INITIALIZES it to the value 5x + 12”
 
 
