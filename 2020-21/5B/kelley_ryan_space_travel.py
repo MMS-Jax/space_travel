@@ -1,4 +1,4 @@
-# Space Travel Simulator 2020, Ryan Kelley, 10/05/2020 8:36AM, Version 0.65
+# Space Travel Simulator 2020, Ryan Kelley, 10/05/2020 9:09AM, Version 0.7
 import time 
 # print instructions on the screen
 # get user input to select an object
@@ -50,25 +50,26 @@ trillion = 1000000000000
 
 # Objects in Our Solar System
 dist_sun = 149.75 * million
-# dist_venus =
-# dist_europa
+dist_pluto = 7.5 * billion 
+dist_neptune = 4.3514 * billion
+
 
 
 # Objects outside the Solar System
 light_year = 9.46073 * trillion
 dist_alpha_centauri = 4.3 * light_year
-# Distance for object two goes here.
-# Distance for object three goes here.
+dist_eagle_nebula = 5700 * light_year
+dist_pillars_creation = 7000 * light_year
 
 print("/*********************************************************************************\\")
 print("|  Please choose an object from the following menu.                               |")
 print("|                                                                                 |")
 print("|  [0] The Sun                                                                    |")
-print("|  [1] Venus                                                                      |")
-print("|  [2] Europa                                                                     |")
+print("|  [1] Pluto                                                                      |")
+print("|  [2] Neptune                                                                    |")
 print("|  [3] Alpha Centauri                                                             |")
-print("|  [4] Something Else                                                             |")
-print("|  [5] Another Something Else                                                     |")
+print("|  [4] Eagle Nebula                                                               |")
+print("|  [5] Pillars of Creation                                                        |")
 print("|                                                                                 |")
 print("\\*********************************************************************************/")
 time.sleep(3)
@@ -76,5 +77,25 @@ user_choice = int(input("Please type a number from the menu and press ENTER."))
 # print(user_choice)
 distance = 0
 
-
+if user_choice == 0: # == means "Are these two things equal?"
+    distance = dist_sun
+    print("You have chosen The Sun. It is", distance, "kilometers from Earth.\n")
+elif user_choice == 1: # == means "Are these two things equal?"
+    distance = dist_pluto
+    print("You have chosen Pluto. It is", distance, "kilometers from Earth.\n")
+elif user_choice == 2: # == means "Are these two things equal?"
+    distance = dist_neptune
+    print("You have chosen Neptune. It is", distance, "kilometers from Earth.\n")
+elif user_choice == 3: # == means "Are these two things equal?"
+    distance = dist_alpha_centauri
+    print("You have chosen Alpha Centauri. It is", distance, "kilometers from Earth.\n")
+elif user_choice == 4: # == means "Are these two things equal?"
+    distance = dist_eagle_nebula
+    print("You have chosen the Eagle Nebula. It is", distance, "kilometers from Earth.\n")
+elif user_choice == 5: # == means "Are these two things equal?"
+    distance = dist_pillars_creation
+    print("You have chosen Pillars of Creation. It is", distance, "kilometers from Earth.\n")
+else:
+    print("You did not choose an option on the menu.  Please restart the program.\n")
+    exit() 
 
