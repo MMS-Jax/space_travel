@@ -25,3 +25,7 @@ print ("Greetings human!  This is the Space Travel Simulator-bot.  I will help y
 # “Floats (floating point)are positiveor negative numbersthat have a decimal. Abbreviated as float.”
 # “Strings are lines of text including letters and characters. Abbreviated as str.”
 # “Bools (Boolean) are True ofFalsevalues.  Abbreviatedas bool.”
+
+
+# “NAMING VARIABLES”
+
