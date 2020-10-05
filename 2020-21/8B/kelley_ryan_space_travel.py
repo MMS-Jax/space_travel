@@ -59,5 +59,33 @@ print("*                                                                        
 print("*   You will be prompted to enter one of the numbers from the list.      *")
 print("+========================================================================+")
 time.sleep(3)
-user_choice = input("Please type a number from the menu and press ENTER.\n")
-print(user_choice)
+user_choice = int(input("Please type a number from the menu and press ENTER.\n"))
+# print(user_choice)
+
+distance = 0
+
+if user_choice == 0: # Called CONDITIONAL, == means "Are these equal?"
+    distance = dist_sun
+    print("You have chosen the Sun.  It is", distance,"kilometers from Earth.\n")
+elif user_choice == 1: # Called CONDITIONAL, == means "Are these equal?"
+    distance = dist_uranus
+    print("You have chosen Uranus.  It is", distance,"kilometers from Earth.\n")
+elif user_choice == 2: # Called CONDITIONAL, == means "Are these equal?"
+    distance = dist_asteroid_belt
+    print("You have chosen the Asteroid Belt.  It is", distance,"kilometers from Earth.\n")
+elif user_choice == 3: # Called CONDITIONAL, == means "Are these equal?"
+    distance = dist_alpha_centauri
+    print("You have chosen Alpha Centauri.  It is", distance,"kilometers from Earth.\n")
+elif user_choice == 4: # Called CONDITIONAL, == means "Are these equal?"
+    distance = dist_ursa_major
+    print("You have chosen Ursa Major.  It is", distance,"kilometers from Earth.\n")
+elif user_choice == 5: # Called CONDITIONAL, == means "Are these equal?"
+    distance = dist_gw_orionis
+    print("You have chosen GW Orionis.  It is", distance,"kilometers from Earth.\n")
+else: # Does NOT need a conditional.
+    print("You did not choose an option from the menu.  Please restart!\n")
+    exit() 
+    
+    
+
+
