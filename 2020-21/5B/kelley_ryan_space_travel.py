@@ -98,4 +98,12 @@ elif user_choice == 5: # == means "Are these two things equal?"
 else:
     print("You did not choose an option on the menu.  Please restart the program.\n")
     exit() 
+time.sleep(3)
 
+light_speed = 299792
+user_speed = int(input("Please type a speed in Km / s.  DO NOT enter commas.  Then press ENTER.\n"))
+print(user_speed)
+
+# Need to write if/elif/else statement to make sure user_speed <= light_speed.
+
+VAVOPQ
