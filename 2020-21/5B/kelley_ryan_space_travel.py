@@ -1,4 +1,4 @@
-# Space Travel Simulator 2020, Ryan Kelley, 10/01/2020 9:15AM, Version 0.5
+# Space Travel Simulator 2020, Ryan Kelley, 10/05/2020 8:36AM, Version 0.65
 import time 
 # print instructions on the screen
 # get user input to select an object
@@ -70,10 +70,11 @@ print("|  [3] Alpha Centauri                                                    
 print("|  [4] Something Else                                                             |")
 print("|  [5] Another Something Else                                                     |")
 print("|                                                                                 |")
-print("|                                                                                 |")
-print("|                                                                                 |")
-print("|                                                                                 |")
-print("|                                                                                 |")
 print("\\*********************************************************************************/")
+time.sleep(3)
+user_choice = int(input("Please type a number from the menu and press ENTER."))
+# print(user_choice)
+distance = 0
+
 
 
