@@ -36,15 +36,15 @@ dist_uranus = 2.9 * billion
 dist_asteroid_belt = 553.5 * million
 
 # Objects Outside the Solar System
-# dist_alpha_centauri = 
-# dist_ursa_major =
-light_year = 9.4607 * trillion 
+light_year = 9.4607 * trillion
+dist_alpha_centauri = 4.0 * light_year
+dist_ursa_major = 11.25 * light_year
 dist_gw_orionis = 1000 * light_year
 
 # Ask the user what their name is.
 user_name = input("What is your name?  Please type your name and press [ENTER].\n")
 print("Oh, you're finally awake!  It's nice to meet you" ,user_name, "!\n")
-time.sleep(3)
+# time.sleep(3)
 
 print("+========================================================================+")
 print("* Please choose one of the objects from the menu.                        *")
@@ -58,7 +58,7 @@ print("*   [5] GW Orionis                                                       
 print("*                                                                        *")
 print("*   You will be prompted to enter one of the numbers from the list.      *")
 print("+========================================================================+")
-time.sleep(3)
+# time.sleep(3)
 user_choice = int(input("Please type a number from the menu and press ENTER.\n"))
 # print(user_choice)
 
@@ -85,7 +85,13 @@ elif user_choice == 5: # Called CONDITIONAL, == means "Are these equal?"
 else: # Does NOT need a conditional.
     print("You did not choose an option from the menu.  Please restart!\n")
     exit() 
-    
-    
+# time.sleep(3)
+
+light_speed =  299792
+
+
+
+user_speed = int(input("Please enter a speed in Km / s.  DO NOT enter commas. Type it and press enter."))
+print(user_speed)     
 
 
