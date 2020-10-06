@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/06/20 11:08AM, Version 0.5
+# Space Travel Simulator, Ryan Kelley, 10/06/20 11:22AM, Version 0.6
 # ALGORITHM -- List of step-by-step instructions to solve a problem / complete a task. 
 
 import time 
@@ -61,6 +61,22 @@ dist_crab_nebula = 6500 * light_year
 # Ask the user what their name is.
 user_name = input("Hello!  What is your name?  Please type your name and press ENTER.\n")
 print("Wow! I have never met anyone named", user_name,"before.  It's nice to meet you!\n")
-time.sleep(3)
+time.sleep(2)
+
+
+print("%+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+%")
+print("!                                Space Travel Simulator Menu                        !")
+print("!                                                                                   !")
+print("!  Please select an object from the menu.                                           !")
+print("!                                                                                   !")
+print("!  [0] The Sun                                                                      !")
+print("!  [1] Venus                                                                        !")
+print("!  [2] Europa                                                                       !")
+print("!  [3] Alpha Centauri                                                               !")
+print("!  [4] Eagle Nebula                                                                 !")
+print("!  [5] Crab Nebula                                                                  !")
+print("!                                                                                   !")
+print("%+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+%")
+time.sleep(2)
 
 
