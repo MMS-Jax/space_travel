@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/06/20, 2:12PM, Version 0.9
+# Space Travel Simulator, Ryan Kelley, 10/06/20, 2:22PM, Version 0.95
 # ALGORITHM -- Step by step list of instructions to complete a task.
 import time 
 # print instructions
@@ -116,6 +116,13 @@ print("It will take", trip_time,"seconds to complete the trip.\n")
 secs_per_year = 3.154e7
 max_trip = secs_per_year * 3
 time.sleep(2)
+
+if trip_time > max_trip:
+    print("The trip will take too long.  It is dangerous to go!\n")
+else:
+    print("The trip will be no more than three years.  Good luck, travel safely!\n")
+time.sleep(2)
+
 
 
 
