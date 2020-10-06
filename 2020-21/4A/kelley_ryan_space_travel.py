@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/02/20, 2:39PM, Version 0.7
+# Space Travel Simulator, Ryan Kelley, 10/06/20, 1:59PM, Version 0.8
 # ALGORITHM -- Step by step list of instructions to complete a task.
 import time 
 # print instructions
@@ -94,6 +94,19 @@ elif user_choice == 5:
 else: # This is the PANIK option.  It means none of my choices above were true.  
     print("You did not pick an option from the menu.  The program will now exit.  Try again.\n")
     exit() 
+
+
+light_speed = 299792  # Km / s
+user_speed = int(input("Please type a speed in Km / s.  Do NOT enter commas.\n"))
+print("You entered",user_speed,"Km / s.  That's fast!\n")
+
+if user_speed > light_speed:
+    print("That's actually too fast, you can't break the laws of physics!\n")
+    user_speed = int(input("Please type a speed in Km / s.  Do NOT enter commas.\n"))
+    print("You entered",user_speed,"Km / s.  That's fast!\n")
+else:
+    print("You are not going faster than light speed.  Good luck!\n")
+time.sleep(2)
 
 
     
