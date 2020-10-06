@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/06/20 10:45AM, Version 0.4
+# Space Travel Simulator, Ryan Kelley, 10/06/20 10:57AM, Version 0.45
 # ALGORITHM -- List of step-by-step instructions to solve a problem / complete a task. 
 
 import time 
@@ -49,5 +49,12 @@ dist_sun = 150 * million
 dist_venus = 149.5 * million 
 dist_europa = 630 * million
 
+
+# Objects Outside of the Solar System
+# Most objects outside of the Solar System are so far away they are measured in LIGHT YEARS.
+light_year = 9.46073 * trillion
+dist_alpha_centauri = 4.37 * light_year
+dist_eagle_nebula = 7000 * light_year
+dist_crab_nebula = 6500 * light_year
 
 
