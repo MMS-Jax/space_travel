@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/06/20, 1:59PM, Version 0.8
+# Space Travel Simulator, Ryan Kelley, 10/06/20, 2:12PM, Version 0.9
 # ALGORITHM -- Step by step list of instructions to complete a task.
 import time 
 # print instructions
@@ -109,10 +109,13 @@ else:
 time.sleep(2)
 
 
-    
+trip_time = distance / user_speed  
+print("It will take", trip_time,"seconds to complete the trip.\n") 
 
 
-
+secs_per_year = 3.154e7
+max_trip = secs_per_year * 3
+time.sleep(2)
 
 
 
