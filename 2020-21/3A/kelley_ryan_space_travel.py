@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/06/20 10:57AM, Version 0.45
+# Space Travel Simulator, Ryan Kelley, 10/06/20 11:08AM, Version 0.5
 # ALGORITHM -- List of step-by-step instructions to solve a problem / complete a task. 
 
 import time 
@@ -56,5 +56,11 @@ light_year = 9.46073 * trillion
 dist_alpha_centauri = 4.37 * light_year
 dist_eagle_nebula = 7000 * light_year
 dist_crab_nebula = 6500 * light_year
+
+
+# Ask the user what their name is.
+user_name = input("Hello!  What is your name?  Please type your name and press ENTER.\n")
+print("Wow! I have never met anyone named", user_name,"before.  It's nice to meet you!\n")
+time.sleep(3)
 
 
