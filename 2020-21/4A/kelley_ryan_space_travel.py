@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/06/20, 2:22PM, Version 0.95
+# Space Travel Simulator, Ryan Kelley, 10/06/20, 2:28PM, Version 1.0
 # ALGORITHM -- Step by step list of instructions to complete a task.
 import time 
 # print instructions
@@ -124,5 +124,5 @@ else:
 time.sleep(2)
 
 
-
+print("Thank you,",user_name," for using the Space Travel Simulator!\n")
 
