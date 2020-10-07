@@ -120,6 +120,9 @@ else:
 time.sleep(2)
 
 
-
-    
+trip_time = distance / user_speed # This will give you an answer in SECONDS. 
+print("The trip will take",trip_time,"seconds to complete!\n")
+secs_per_year = 3.154e7
+max_time = secs_per_year * 3
+time.sleep(2)
                  
