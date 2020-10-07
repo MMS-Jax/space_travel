@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/06/20 11:00PM, Version 0.8
+# Space Travel Simulator, Ryan Kelley, 10/06/20 11:28PM, Version 1.0
 # ALGORITHM -- List of step-by-step instructions to solve a problem / complete a task. 
 
 import time 
@@ -126,3 +126,14 @@ secs_per_year = 3.154e7
 max_time = secs_per_year * 3
 time.sleep(2)
                  
+
+if trip_time <= max_time: # trip_time <= max_time is the CONDITIONAL.
+    print("The trip will NOT exceed three years. The mission can succeed!\n")
+else:
+    print("The trip will take more than three years.  It is too dangerous to make that journey.\n")
+time.sleep(2)
+
+
+print("I hope you enjoyed the Space Travel Simulator.  Good luck in your journey!\n")
+time.sleep(2)
+exit()
