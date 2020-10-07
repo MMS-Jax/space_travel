@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/06/20 10:19PM, Version 0.65
+# Space Travel Simulator, Ryan Kelley, 10/06/20 10:39PM, Version 0.7
 # ALGORITHM -- List of step-by-step instructions to solve a problem / complete a task. 
 
 import time 
@@ -84,3 +84,25 @@ user_choice = int(input("Please type a number from the menu and press ENTER.\n")
 distance = 0
 
 
+if user_choice == 0: # user_choice == 0 is a CONDITIONAL STATEMENT, is it true or false? == means, "IS the left side equal to the right side?"
+    distance = dist_sun
+    print("You have selected The Sun.  It is",distance,"kilometers from the Earth.\n")
+elif user_choice == 1: 
+    distance = dist_venus
+    print("You have selected Venus.  It is",distance,"kilometers from the Earth.\n")
+elif user_choice == 2: 
+    distance = dist_europa
+    print("You have selected Jupiter's moon: Europa.  It is",distance,"kilometers from the Earth.\n")
+elif user_choice == 3: 
+    distance = dist_alpha_centauri
+    print("You have selected the next closest star: Alpha Centauri.  It is",distance,"kilometers from the Earth.\n")
+elif user_choice == 4: 
+    distance = dist_eagle_nebula
+    print("You have selected the Eagle Nebula.  It is",distance,"kilometers from the Earth.\n")
+elif user_choice == 5: 
+    distance = dist_crab_nebula
+    print("You have selected the Crab Nebula.  It is",distance,"kilometers from the Earth.\n")
+else: # Nothing else has happened, what do I do?
+    print("You did not choose an object from the menu.  The program will now exit.  Please restart and try again.\n")
+    exit()
+time.sleep(2)
