@@ -86,22 +86,22 @@ distance = 0
 
 if user_choice == 0: # user_choice == 0 is a CONDITIONAL STATEMENT, is it true or false? == means, "IS the left side equal to the right side?"
     distance = dist_sun
-    print("You have selected The Sun.  It is",distance,"kilometers from the Earth.\n")
+    print(f"You have selected The Sun.  It is {distance:,} kilometers from the Earth.\n")
 elif user_choice == 1: 
     distance = dist_venus
-    print("You have selected Venus.  It is",distance," kilometers from the Earth.\n")
+    print(f"You have selected Venus.  It is {distance:,} kilometers from the Earth.\n")
 elif user_choice == 2: 
     distance = dist_europa
-    print("You have selected Jupiter's moon: Europa.  It is",distance,"kilometers from the Earth.\n")
+    print(f"You have selected Jupiter's moon: Europa.  It is {distance:,} kilometers from the Earth.\n")
 elif user_choice == 3: 
     distance = dist_alpha_centauri
-    print("You have selected the next closest star: Alpha Centauri.  It is",distance,"kilometers from the Earth.\n")
+    print(f"You have selected the next closest star: Alpha Centauri.  It is {distance:,} kilometers from the Earth.\n")
 elif user_choice == 4: 
     distance = dist_eagle_nebula
-    print("You have selected the Eagle Nebula.  It is",distance,"kilometers from the Earth.\n")
+    print(f"You have selected the Eagle Nebula.  It is {distance:,} kilometers from the Earth.\n")
 elif user_choice == 5: 
     distance = dist_crab_nebula
-    print("You have selected the Crab Nebula.  It is",distance,"kilometers from the Earth.\n")
+    print(f"You have selected the Crab Nebula.  It is {distance:,} kilometers from the Earth.\n")
 else: # Nothing else has happened, what do I do?
     print("You did not choose an object from the menu.  The program will now exit.  Please restart and try again.\n")
     exit()
@@ -113,15 +113,15 @@ user_speed = int(input("Please enter a speed in Km / s. DO NOT use commas.\n"))
 if user_speed > light_speed: # user_speed > light_speed is the CONDITIONAL.
     print("You CANNOT exceed light speed, which is 299,792 Km / s.  Please try again.\n")
     user_speed = int(input("Please enter a speed in Km / s. DO NOT use commas.\n"))
-    print("You are going", user_speed,"Km / s.\n")
+    print(f"You are going {user_speed:,} Km / s.\n")
 else:
-    print("You are going", user_speed,"Km / s.\n")
+    print(f"You are going {user_speed:,} Km / s.\n")
     print("That's a good speed, you are not going faster than light speed!\n")
 time.sleep(2)
 
 
 trip_time = distance / user_speed # This will give you an answer in SECONDS. 
-print("The trip will take",trip_time,"seconds to complete!\n")
+print(f"The trip will take {trip_time:,} seconds to complete!\n")
 secs_per_year = 3.154e7
 max_time = secs_per_year * 3
 time.sleep(2)
