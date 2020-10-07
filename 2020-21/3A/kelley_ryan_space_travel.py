@@ -1,4 +1,4 @@
-# Space Travel Simulator, Ryan Kelley, 10/06/20 11:22AM, Version 0.6
+# Space Travel Simulator, Ryan Kelley, 10/06/20 10:19PM, Version 0.65
 # ALGORITHM -- List of step-by-step instructions to solve a problem / complete a task. 
 
 import time 
@@ -78,5 +78,9 @@ print("!  [5] Crab Nebula                                                       
 print("!                                                                                   !")
 print("%+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+%")
 time.sleep(2)
+
+
+user_choice = int(input("Please type a number from the menu and press ENTER.\n"))
+distance = 0
 
 
